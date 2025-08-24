@@ -46,7 +46,7 @@ ul li ul.dropdown {
     background: #4f4f4f;
     position: absolute;
     z-index: 999;
-    display: none;
+    display: block;
 }
 
 ul li a:hover{
