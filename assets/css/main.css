@@ -1556,6 +1556,18 @@ input, select, textarea {
 				display: none;
 			}
 
+		#projectheader .logo {
+			width: 5.5rem;
+			height: 5.5rem;
+			line-height: 5.5rem;
+			border: solid 1px #ffffff;
+			border-radius: 100%;
+		}
+
+			#projectheader .logo .icon:before {
+				font-size: 2rem;
+			}
+
 		#projectheader .content {
 			border-style: solid;
 			border-color: #ffffff;
