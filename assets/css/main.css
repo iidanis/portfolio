@@ -1537,6 +1537,7 @@ input, select, textarea {
 			margin-top: 3.5rem;
 		}
 
+/*
 			#projectheader > *:before {
 				content: '';
 				display: block;
@@ -1547,6 +1548,7 @@ input, select, textarea {
 				height: calc(3.5rem + 1px);
 				background: #ffffff;
 			}
+*/
 
 		#projectheader > :first-child {
 			margin-top: 0;
@@ -1560,6 +1562,8 @@ input, select, textarea {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
+			border: solid 1px #ffffff;
+			border-radius: 100%;
 		}
 
 			#projectheader .logo .icon:before {
@@ -1569,8 +1573,8 @@ input, select, textarea {
 		#projectheader .content {
 			border-style: solid;
 			border-color: #ffffff;
-			border-top-width: 1px;
-			border-bottom-width: 1px;
+/*			border-top-width: 1px;*/
+/*			border-bottom-width: 0px;*/
 			max-width: 100%;
 		}
 
