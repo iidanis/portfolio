@@ -49,6 +49,14 @@ ul li ul.dropdown {
     display: none;
 }
 
+ul li a:hover{
+    background: black;
+}
+
+ul li: hover ul.dropdown{
+    display: block;
+}
+
 blockquote, q {
 	quotes: none;
 }
