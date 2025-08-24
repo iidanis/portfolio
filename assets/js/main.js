@@ -10,6 +10,7 @@
 		$body = $('body'),
 		$wrapper = $('#wrapper'),
 		$header = $('#header'),
+        $projectheader = $('#projectheader'),
 		$footer = $('#footer'),
 		$main = $('#main'),
 		$main_articles = $main.children('article');
@@ -94,6 +95,7 @@
 
 							// Hide header, footer.
 								$header.hide();
+								$projectheader.hide();
 								$footer.hide();
 
 							// Show main, article.
@@ -168,6 +170,7 @@
 
 								// Hide header, footer.
 									$header.hide();
+                                    $projectheader.hide();
 									$footer.hide();
 
 								// Show main, article.
@@ -228,6 +231,7 @@
 							// Show footer, header.
 								$footer.show();
 								$header.show();
+								$projectheader.show();
 
 							// Unmark as visible.
 								$body.removeClass('is-article-visible');
@@ -263,6 +267,7 @@
 						// Show footer, header.
 							$footer.show();
 							$header.show();
+							$projectheader.show();
 
 						// Unmark as visible.
 							setTimeout(function() {

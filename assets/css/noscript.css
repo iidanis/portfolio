@@ -29,6 +29,25 @@
 			opacity: 1;
 		}
 
+/* ProjectHeader */
+
+	body.is-preload #projectheader {
+		-moz-filter: none;
+		-webkit-filter: none;
+		-ms-filter: none;
+		filter: none;
+	}
+
+		body.is-preload #projectheader > * {
+			opacity: 1;
+		}
+
+		body.is-preload #projectheader .content .inner {
+			max-height: none;
+			padding: 3rem 2rem;
+			opacity: 1;
+		}
+
 /* Main */
 
 	#main article {
